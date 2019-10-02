@@ -1,4 +1,6 @@
-# Карта развития веб-разработчика [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=%D0%9A%D0%B0%D1%80%D1%82%D0%B0+%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D1%8F+%D0%B2%D0%B5%D0%B1-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%B0&url=https://github.com/zualex/devmap/&via=iamZualex&hashtags=devmap)
+Источник: https://github.com/zualex/devmap
+
+# Карта развития веб-разработчика
 
 ## Содержание
 - [**Каждый уважающий себя разработчик должен знать:**](#Каждый-уважающий-себя-разработчик-должен-знать-)
@@ -87,14 +89,6 @@
     - [ ] [British council](https://learnenglish.britishcouncil.org/) очень много полезной и структурированной информации для изучения
     - [ ] [Jazz chants](http://www.onestopenglish.com/skills/listening/jazz-chants/mp3-files-and-recording-scripts/) тренеровка темпа и скорости речи, чтобы звучать более естественно
     - [ ] [Engoo Daily news](https://engoo.com/app/daily-news) статьи на английском с разбивкой по уровням
-
----
-
-### Архитектура компьютера [&uarr;](#Содержание)
-**Цель** - познакомиться с концептуальной структурой вычислительных машин.
-
-- [ ] Книга:
-    - [ ] [Код. Тайный язык информатики (Чарльз Петцольд)](http://www.ozon.ru/context/detail/id/125884/)
 
 ---
 
@@ -315,7 +309,8 @@
 - [ ] Примеры серверных языков:
     - [ ] PHP
     - [ ] Python
-    - [ ] Ruby
+    - [ ] Go
+    - [ ] Node.js
 
 - [ ] Статьи:
     - [ ] Типы данных
@@ -425,8 +420,12 @@
     - [ ] [Django](https://www.djangoproject.com/)
     - [ ] [Flask](http://flask.pocoo.org/)
 
-- [ ] Ruby фреймворки:
-    - [ ] [Ruby on Rails](http://rubyonrails.org/)
+- [ ] Go фреймворки:
+    - [ ] [Revel](https://revel.github.io/)
+
+- [ ] Node.js фрейворки
+    - [ ] [express](https://expressjs.com/ru/)
+    - [ ] [koa](https://koajs.com/)
 
 - [ ] Статьи:
     - [ ] [Фреймворк (wikipedia)](https://ru.wikipedia.org/wiki/%D0%A4%D1%80%D0%B5%D0%B9%D0%BC%D0%B2%D0%BE%D1%80%D0%BA)
@@ -438,7 +437,7 @@
 - [ ] Список пакетных менеджеров:
     - [ ] Для PHP - [composer](https://getcomposer.org/)
     - [ ] Для Python - [pip](https://pypi.python.org/pypi/pip)
-    - [ ] Для Ruby - [bundler](http://bundler.io/)
+    - [ ] Для Go - [dep](https://github.com/golang/dep)
     - [ ] Для Javascript - [npm](https://www.npmjs.com/), [yarn](https://yarnpkg.com/)
 
 - [ ] Статьи:
@@ -523,14 +522,14 @@
 **Цель** - познакомиться с наиболее популярными библиотеками JavaScript. Знать где и когда их применять.
 
 Список библиотек:
-- [ ] [jQuery](https://jquery.com/)
-- [ ] [ReactJS](https://reactjs.org/)
-- [ ] [Underscore - набор полезных функций](http://underscorejs.org/)
-- [ ] [Modernizr - обнаруживает HTML5 и CSS3 функции в браузере пользователя](https://modernizr.com/)
 - [ ] [Babel - компилятор для написания JavaScript следующего поколения](https://babeljs.io/)
+- [ ] [Jest - написание тестов](https://jestjs.io/)
+- [ ] [Moment - Работа с датой и временем](http://momentjs.com/)
+- [ ] [Underscore - набор полезных функций](http://underscorejs.org/)
+- [ ] [jQuery](https://jquery.com/)
+- [ ] [Modernizr - обнаруживает HTML5 и CSS3 функции в браузере пользователя](https://modernizr.com/)
 - [ ] [Three - 3D](http://threejs.org/)
 - [ ] [WOW - анимация при прокрутки страницы](http://mynameismatthieu.com/WOW/)
-- [ ] [Moment - Работа с датой и временем](http://momentjs.com/)
 - [ ] [Mocha - написание тестов](https://mochajs.org/)
 
 Список наиболее популярных библиотек есть на [Javascripting](https://www.javascripting.com/)
@@ -559,9 +558,9 @@
 Сборщик проектов — небольшое приложение, которое используется для автоматизации скучных и рутинных задач, которые приходится постоянно выполнять в процессе разработки проекта. Такие задачи включают в себя, к примеру, запуск модульных тестов, конкатенацию файлов, минификацию, препроцессинг CSS.
 
 - [ ] Сборщики проектов:
+    - [ ] [Webpack](https://webpack.github.io/)
     - [ ] [Gulp](http://gulpjs.com/)
     - [ ] [Grunt](http://gruntjs.com/)
-    - [ ] [Webpack](https://webpack.github.io/)
 
 - [ ] Статьи:
     - [ ] [Приятная сборка frontend проекта (habrahabr)](https://habrahabr.ru/post/250569/)
@@ -572,8 +571,8 @@
 
 ### Пакетный менеджер [&uarr;](#Содержание)
 - [ ] Список пакетных менеджеров:
+    - [ ] [npm](https://www.npmjs.com/)    
     - [ ] [Bower](https://bower.io/)
-    - [ ] [npm](https://www.npmjs.com/)
     - [ ] [Yarn](https://yarnpkg.com/)
 
 - [ ] Статьи:
@@ -597,10 +596,12 @@
 Существуют разные фреймворки, не нужно изучать всё сразу, необходимо взять несколько фреймворков за основу.
 
 Список фреймворков:
+- [ ] [ReactJS](https://reactjs.org/)
+- [ ] [Vue](http://vuejs.org/)
 - [ ] [AngularJS](https://angular.io/)
-- [ ] [Vue - создание интерактивных интерфейсов](http://vuejs.org/)
 - [ ] [Backbone](http://backbonejs.org/)
 - [ ] [Ember](http://emberjs.com/)
+
 
 ---
 
